@@ -1,0 +1,23 @@
+{
+  "name": "barbara-portfolio",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this theme!",
+  "main": "barbara-portfolio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcdermottsolutions/barbara-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcdermottsolutions/barbara-portfolio/issues"
+  },
+  "homepage": "https://github.com/mcdermottsolutions/barbara-portfolio#readme",
+  "dependencies": {
+    "connect": "^3.6.0",
+    "serve-static": "^1.12.1"
+  }
+}
