@@ -1,0 +1,151 @@
+
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  margin-top: 0;
+  line-height: 1.5;
+  font-color: #1e1c1c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: light 300px;
+}
+
+a
+{
+    color: #1e1c1c;
+}
+
+a:hover
+{
+    color: gray;
+    text-decoration: none;
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: .60em;
+  text-align:center;
+}
+
+li {
+  font-color: red;
+}
+
+#bio {
+  padding-left:0;
+  margin-left:0;
+  padding-bottom:20px;
+}
+
+#hide {
+  visibility: hidden;
+}
+
+.container {
+padding: 20px 10px;
+}
+
+.nav{
+
+  border-top-color: rgba(229, 37, 81, .5);
+  border-style: solid;
+  border-width: 1px;
+  padding-top:0;
+  margin-top: 0;
+}
+.navbar-brand {
+  font-family:'Abril Fatface', cursive;
+  color: rgba(8, 1, 12,.35);
+}
+
+.nav navbar-nav {
+  font-family: 'Raleway', sans-serif;
+  font-weight: light 300;
+  color: #1e1c1c;
+}
+
+.linkedinWrapper {
+  margin: 12px 0 0;
+  display:block;
+}
+
+.githubWrapper {
+  margin: 14px 0 0;
+  display:block;
+}
+
+}
+.about-me-text {
+  border-radius:15px;
+  margin-bottom:20px;
+  padding-right:10px;
+  padding-left: 10px;
+  background-color:rgba(252, 217, 201, .35)
+
+}
+
+.splash {
+  margin-top: 0;
+  width: 100%;
+  max-height: 500px;
+  border-style: solid;
+  border-bottom-color: rgba(229, 37, 81, .5);
+  border-bottom-width: 2px;
+}
+
+.carousel-inner > .item > img{
+    margin: 0 auto;
+    max-width: 700px;
+    max-height: 500px;
+
+}
+
+.carousel-indicators {
+  bottom: 50px;
+}
+
+.header-text {
+    position: absolute;
+    bottom: -10px;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+  padding: 15px 0;
+  font-size: 150%;
+  background: #fff;
+}
+
+.avatar {
+  margin-right:0;
+  padding-right:0;
+  margin-bottom: 30px;
+}
+
+.about-me{
+  padding:30px 70px;
+}
+
+
+.line {
+  padding-top: 20px;
+}
+
+.projects{
+  padding: 100px;
+  text-align: center;
+  font-size: 250%;
+  color: silver;
+}
+
+.footer {
+  text-align: center;
+  font-family:'Abril Fatface', cursive;
+  font-weight: lighter;
+  font-size: 9px;
+  color: silver;
+  padding: 10px;
+}
