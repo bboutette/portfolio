@@ -3,12 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="tea.ico" type="image/x-icon">
+  <link rel="icon" href="tea.ico" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="StyleSheet" href="css/main.css">
+  <link rel="StyleSheet" href="css/portfolio.css">
   <script type="text/javascript" src="main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
   <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -18,9 +19,9 @@
 <body>
   <header>
     <nav>
-      <div class="nav containers">
+      <div class="nav">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Barbara Boutette</a>
+          <p class="navbar-brand">Barbara Boutette</p>
         </div>
         <div id="navbar">
           <ul class="nav navbar-nav" style="border-style:none;">
@@ -38,7 +39,7 @@
             </li>
             <li>
               <span class="githubWrapper">
-                <a class="github-button" href="https://github.com/bboutette" data-count-href="/bboutette/followers" data-count-api="/users/bboutette#followers" data-count-label="# followers on GitHub" label="Follow @bboutette on GitHub">Follow @bboutette</a>
+                <a class="github-button" href="https://github.com/bboutette" data-count-href="/bboutette/followers" data-show-count="true" data-count-label="# followers on GitHub" label="Follow @bboutette on GitHub">Follow @bboutette</a>
               </span>
             </li>
           </ul>
@@ -49,25 +50,28 @@
 
     <img src="images/purple-flower-03.jpg" alt="purple flower" class="splash">
 
-    <div class = "container about-me" id="about">
+    <div class = "container about-me">
       <div class="row">
         <div class="col-xs-12 col-md-6">
           <img width="300" height="475" style="border-radius: 15px;" class="avatar" src="images/avatar.jpg">
         </div>
 
-        <div class="col-xs-12 col-md-6 fadeIn">
+        <div class="col-xs-12 col-md-6">
           <h1>About Me</h1>
           <div class="about-me-text" style="border-radius:15px;
           margin-bottom:20px;
           padding-right:10px;
           padding-left: 10px;
-          background-color:rgba(252, 217, 201, .35)">
+          padding-top: 10px;
+          background-color:rgba(252, 217, 201, .35);
+          font-size: 150%;
+          line-height: 1.75;"
+          >
             For the last eight years, I have been working as a social worker, volunteering for different non-profits, and sometimes working as a musician.
             It brought together two of my favorite activities: helping people and learning stuff. I am currently pursuing a Masters in Public Health from
             George Washington University and also in a web development bootcamp at General Assembly.
             I hope to help more people and make new friends with my new skills, perhaps through open source projects.
-            In my free time, I enjoy hiking with my boyfriend
-            and my dog, singing and playing music, coordinating <span style="font-weight:800px;"><a  href="https://www.meetup.com/Austin-Esperanto/">
+            In my free time, I enjoy hiking with my dog, singing and playing music, coordinating <span style="font-weight:800px;"><a  href="https://www.meetup.com/Austin-Esperanto/">
             The Austin Esperanto Club</a></span>, and learning to play Naruto from my son.
           </div>
         </div>
@@ -90,7 +94,6 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
         <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner">
 
@@ -168,22 +171,88 @@
             </div>
           </div>
         </div>
-
       </div>
-    </div>
+  </div>
 
 <!-- Add thumbnails below carousel and carousel text. -->
 
     <div class="line">
     <HR WIDTH="60%">
     </div>
+
     <div class="container projects">
-        <a href"#" class="animation">Projects</p></a>
-        <p id="hide">Under Construction</p>
+        <p style="padding-bottom:45px;">Projects</p>
+
+<!-- Portfolio thumbnails start -->
+<!-- by SebaGarcia on codepen http://codepen.io/SebaGarciaM/pen/GlLio -->
+
+      <div class="svg-wrap">
+
+        <svg width="32" height="32" viewBox="0 0 32 32">
+          <path id="eye" d="M31.965 15.776c-0.010-0.042-0.004-0.087-0.020-0.128-0.006-0.017-0.021-0.026-0.027-0.042-0.010-0.024-0.008-0.051-0.021-0.074-2.9-5.551-9.213-9.528-15.873-9.528-6.661 0-12.973 3.971-15.875 9.521-0.013 0.023-0.011 0.050-0.021 0.074-0.007 0.016-0.021 0.025-0.027 0.042-0.016 0.041-0.010 0.086-0.020 0.128-0.018 0.075-0.035 0.147-0.035 0.224s0.018 0.148 0.035 0.224c0.010 0.042 0.004 0.087 0.020 0.128 0.006 0.017 0.021 0.026 0.027 0.042 0.010 0.024 0.008 0.051 0.021 0.074 2.901 5.551 9.214 9.528 15.875 9.528 6.66 0 12.973-3.971 15.873-9.521 0.014-0.023 0.012-0.050 0.021-0.074 0.006-0.016 0.021-0.025 0.027-0.042 0.016-0.041 0.010-0.086 0.020-0.128 0.017-0.076 0.035-0.148 0.035-0.224s-0.018-0.149-0.035-0.224zM16.023 23.988c-5.615 0-11.112-3.191-13.851-7.995 2.754-4.81 8.243-7.99 13.851-7.99 5.613 0 11.111 3.192 13.85 7.995-2.754 4.811-8.242 7.99-13.85 7.99zM16.023 11.999c0.276 0 0.498 0.223 0.498 0.5 0 0.275-0.223 0.499-0.498 0.499v0.001c-1.654 0-2.999 1.345-2.999 2.997 0 0.276-0.224 0.5-0.499 0.5s-0.5-0.224-0.5-0.5c0-2.205 1.787-3.992 3.992-3.996 0.002 0 0.004-0.001 0.006-0.001zM16 9c-3.867 0-7 3.134-7 7s3.134 7 7 7c3.865 0 7-3.135 7-7 0-3.867-3.135-7-7-7zM16 22c-3.309 0-6-2.691-6-6s2.691-6 6-6c3.309 0 6 2.691 6 6s-2.691 6-6 6z"></path>
+        </svg>
+        <img id="photo" src="/images/avatar.jpg"  width="32" height="32" viewBox="0 0 32 32">
+          <path id="photo" d="M27 0h-22c-2.209 0-4 1.791-4 4v24c0 2.209 1.791 4 4 4h22c2.209 0 4-1.791 4-4v-24c0-2.209-1.791-4-4-4zM29 28c0 1.102-0.898 2-2 2h-22c-1.103 0-2-0.898-2-2v-24c0-1.103 0.897-2 2-2h22c1.102 0 2 0.897 2 2v24zM26 4h-20c-0.553 0-1 0.447-1 1v18c0 0.553 0.447 1 1 1h20c0.553 0 1-0.447 1-1v-18c0-0.553-0.447-1-1-1zM26 5v13.869l-3.25-3.53c-0.191-0.216-0.463-0.339-0.75-0.339s-0.561 0.123-0.75 0.339l-2.604 2.95-7.896-8.95c-0.19-0.216-0.463-0.339-0.75-0.339s-0.56 0.123-0.75 0.339l-3.25 3.748v-8.087h20zM6 14.6l4-4.6 8.646 9.801 2.762 3.199h-15.408v-8.4zM22.74 23l-3.428-3.955 2.688-3.045 4 4.379v2.621h-3.26zM20 13c1.656 0 3-1.343 3-3s-1.344-3-3-3c-1.658 0-3 1.343-3 3s1.342 3 3 3zM20 8c1.102 0 2 0.897 2 2s-0.898 2-2 2c-1.104 0-2-0.897-2-2s0.896-2 2-2z"></path> -->
+        </img>
+
+      </div>
+
+      <div class="row wrapper">
+
+        <ul class="tmb-list" id="below3">
+
+          <div class="col-xs-12 col-md-4">
+          <li>
+            <a class="portfolio" href="https://sgoldgar.github.io/CharityProject_FrontEnd/index.html">
+              <span class="portfolio icon-wrap">
+                                  <svg class="icon" width="175" height="200" viewBox="0 0 32 32">
+                                      <use xlink:href="#eye">
+                                  </svg>
+                              </span>
+              <span class="portfolio info"><strong>CharityWish Site </strong>Group project:</br> HTML/CSS, JS, jQuery, NodeJS, MongoDB, Heroku </span>
+            </a>
+          </li>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <li>
+            <a class="portfolio" href="#">
+              <span class="portfolio icon-wrap">
+                                  <svg class="icon" width="175" height="200" viewBox="0 0 32 32">
+                                      <use xlink:href="#eye">
+                                  </svg>
+                              </span>
+              <span class="portfolio info"><strong>Divvy Savings App. </br> COMING SOON!!!</strong>Group project:</br> HTML/CSS JS6, React, Firebase </span>
+            </a>
+          </li>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <li>
+            <a class="portfolio" href="#">
+              <span class="portfolio icon-wrap">
+                                  <svg class="icon" width="175" height="200" viewBox="0 0 32 32">
+                                      <use xlink:href="#eye">
+                                  </svg>
+                              </span>
+              <span class="portfolio info"><strong>KittenKalm. </br> COMING SOON!!!</strong>Solo Project:</br>HTML/CSS, EJS, RESTFUL API</span>
+            </a>
+          </li>
+        </div>
+        </ul>
+
+      </div>
+
     </div>
-  <div class ="footer">
-    Copyright Barbara Boutette 2017
-  </div>
+    <!-- Portfolio images stop -->
+
+    <div class="line">
+    <HR WIDTH="60%">
+    </div>
+
+    <div class="container footer" >
+      Copyright Barbara Boutette 2017
+    </div>
 </body>
 
 </html>

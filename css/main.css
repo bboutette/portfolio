@@ -28,7 +28,7 @@ h1{
 }
 
 li {
-  font-color: red;
+  font-color: light gray;
 }
 
 #bio {
@@ -42,8 +42,9 @@ li {
 }
 
 .container {
-padding: 20px 10px;
+padding: 20px 20px;
 opacity:0;
+
 }
 
 .nav{
@@ -56,7 +57,7 @@ opacity:0;
 }
 .navbar-brand {
   font-family:'Abril Fatface', cursive;
-  color: rgba(8, 1, 12,.35);
+  color: #12123a;
 }
 
 .nav navbar-nav {
@@ -75,15 +76,6 @@ opacity:0;
   display:block;
 }
 
-}
-.about-me-text {
-  border-radius:15px;
-  margin-bottom:20px;
-  padding-right:10px;
-  padding-left: 10px;
-  background-color:rgba(252, 217, 201, .35)
-
-}
 
 .splash {
   margin-top: 0;
@@ -95,9 +87,9 @@ opacity:0;
 }
 
 .carousel-inner > .item > img{
-    margin: 0 auto;
-    max-width: 700px;
-    max-height: 500px;
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 300px;
 
 }
 
@@ -117,12 +109,13 @@ opacity:0;
 .header-text h2 {
   padding: 15px 0;
   font-size: 150%;
-  background: #fff;
+  background: #efefef;
 }
 
 .avatar {
   margin-right:0;
   padding-right:0;
+  display: block;
   margin-bottom: 30px;
 }
 
@@ -130,20 +123,30 @@ opacity:0;
   padding:30px 70px;
 }
 
+.about-me-text {
+  border-radius:15px;
+  margin-bottom:20px;
+  padding-right:10px;
+  padding-left: 10px;
+  background-color:rgba(252, 217, 201, .35)
+  font-size: 200%;
+
+}
 
 .line {
   padding-top: 20px;
 }
 
 .projects{
-  padding: 100px;
+  padding-bottom: 40px;
   text-align: center;
   font-size: 250%;
-  color: silver;
+  color: #12123a;;
 }
 
 .footer {
   text-align: center;
+  display: block;
   font-family:'Abril Fatface', cursive;
   font-weight: lighter;
   font-size: 9px;
