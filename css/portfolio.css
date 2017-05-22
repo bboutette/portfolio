@@ -88,8 +88,13 @@ span.info strong {
   color: #f80037;
 }*/
 
+.pic1 {
+background-image: url(../images/avatar.jpg);
+}
+
 #below3 li {
-  background: #FF4C74;
+  /*background: #FF4C74;*/
+  background-image: url(/images/avatar.jpg);
 }
 
 #below3 svg {
