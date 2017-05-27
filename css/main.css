@@ -44,6 +44,9 @@ p {
   color: #12123a;;
 }
 
+hr {
+  border-top: 1px solid #000;
+}
 
 #bio {
   padding-left:0;
@@ -85,11 +88,18 @@ opacity:0;
   display:block;
 }
 
+.linkedinWrapper > a {
+  padding:10px 8px 10px 15px;
+}
+
 .githubWrapper {
   margin: 14px 0 0;
   display:block;
 }
 
+.githubWrapper > a {
+  padding:20px 8px 10px 15px;
+}
 
 .splash {
   margin-top: 0;
@@ -146,6 +156,7 @@ margin-bottom: 20px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 40px;
 }
 
 .about-me-text {
@@ -165,7 +176,7 @@ margin-bottom: 20px;
 
 .line {
   padding-top: 10px;
-  color: #000;  
+  color: #000;
 }
 
 .skills {
@@ -186,8 +197,12 @@ margin-bottom: 20px;
   max-width: 200px;
   max-height: 100px;
   align-items: inline;
+
 }
 
+.thumbnail-div{
+    margin-right: 70px;
+  }
 /*styles for 2nd modal slideshow attempt*/
 .button-img {
   width: 480px;

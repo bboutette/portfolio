@@ -8,8 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="StyleSheet" href="css/main.css">
-  <link rel="StyleSheet" href="css/portfolio.scss">
+  <link rel="styleSheet" href="css/main.css">
+  <link rel="styleSheet" href="css/portfolio.css">
   <script type="text/javascript" src="main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
   <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -75,6 +75,8 @@
     </div>
     <!-- Carousel
     ================================================== -->
+    <p style="padding-bottom:20px;">Places I Love</p>
+
     <div id="myCarousel" class="container carousel" style="margin-top:30px; border-radius: 5px;">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -83,18 +85,19 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
         <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner">
 
         <div class="item center-img active">
-          <img src="images/dog-trail.jpg" alt="first slide" class="img-responsive">
+          <img src="images/arizona.jpg" alt="first slide" class="img-responsive">
           <div class="header-text hidden-xs">
             <div class="col-md-12 text-center ">
               <h2>
                 <span style="font-family: 'Raleway', sans-serif;
                 font-weight: light 300;
                 color: #1e1c1c;">
-                  My dog and I on the trail.
+                  Northern Arizona.
                 </span>
               </h2>
             </div>
@@ -102,14 +105,14 @@
         </div>
 
         <div class="item center-img">
-          <img src="images/together2.jpg" alt="second slide" class="img-responsive">
+          <img src="images/marfa.jpg" alt="second slide" class="img-responsive">
           <div class="header-text hidden-xs">
             <div class="col-md-12 text-center">
               <h2>
                 <span style="font-family: 'Raleway', sans-serif;
                 font-weight: light 300;
                 color: #1e1c1c;">
-                  Hiking a Hill Country trail.
+                  Marfa.
                 </span>
               </h2>
             </div>
@@ -117,14 +120,14 @@
         </div>
 
         <div class="item center-img">
-          <img src="images/esperanto.jpg" alt="third slide" class="img-responsive">
+          <img src="images/scotland.jpg" alt="third slide" class="img-responsive">
           <div class="header-text hidden-xs">
             <div class="col-md-12 text-center">
               <h2>
                 <span style="font-family: 'Raleway', sans-serif;
                 font-weight: light 300;
                 color: #1e1c1c;">
-                  Happy Esperanto Club Meeting.
+                  Scotland.
                 </span>
               </h2>
             </div>
@@ -132,14 +135,14 @@
         </div>
 
         <div class="item center-img">
-          <img src="images/meandson.jpg" alt="fourth slide" class="img-responsive">
+          <img src="images/sanfran1.jpg" alt="fourth slide" class="img-responsive">
           <div class="header-text hidden-xs">
             <div class="col-md-12 text-center">
               <h2>
                 <span style="font-family: 'Raleway', sans-serif;
                 font-weight: light 300;
                 color: #1e1c1c;">
-                  Fun times with my son.
+                  San Francisco.
                 </span>
               </h2>
             </div>
@@ -147,14 +150,29 @@
         </div>
 
         <div class="item center-img">
-          <img src="images/jacquie.jpg" alt="fifth slide" class="img-responsive">
+          <img src="images/pdx.jpg" alt="fourth slide" class="img-responsive">
           <div class="header-text hidden-xs">
             <div class="col-md-12 text-center">
               <h2>
                 <span style="font-family: 'Raleway', sans-serif;
                 font-weight: light 300;
                 color: #1e1c1c;">
-                  Enjoying time with my friend, Jacquie.
+                  PDX.
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="item center-img">
+          <img src="images/cookieandme.jpg" alt="fifth slide" class="img-responsive">
+          <div class="header-text hidden-xs">
+            <div class="col-md-12 text-center">
+              <h2>
+                <span style="font-family: 'Raleway', sans-serif;
+                font-weight: light 300;
+                color: #1e1c1c;">
+                  On the trail with my pup.
                 </span>
               </h2>
             </div>
@@ -165,13 +183,9 @@
 
 <!-- Add thumbnails below carousel and carousel text. -->
 
-    <div class="line">
+    <div class="container line">
     <HR WIDTH="60%"/>
     </div>
-
-    <hr />
-
-    <hr>
 
   <!-- Animated skill buttons start http://codepen.io/valentingalmand/pen/ggKrpY -->
     <div class="container skills">
@@ -207,31 +221,31 @@
 <div class="container projects">
 
 
-      <p style="padding-bottom:45px;">Projects</p>
+      <p style="padding-bottom:30x;">Projects</p>
 
 <!-- Portfolio thumbnails start https://codepen.io/jeder28/pen/vLyoMG -->
 
-  <div class="col-xs-8 col-md-4" id="lbwrapper">
+  <div class="thumbnail-div col-xs-8 col-xs-offset-4 col-md-2 col-md-offset-1" id="lbwrapper">
 
               <a href="https://sgoldgar.github.io/CharityProject_FrontEnd/index.html">
-              <img class="thumbnail" src="images/charity.png" alt="">CharityWish
+              <img class="thumbnail" src="images/charity.png" alt="">CharityWish (Group Project) HTML5/CSS3 Javascript, Jquery, Restful API
               </a>
 
   </div>
 
-  <div class="col-xs-8 col-md-4" id="lbwrapper">
+  <div class="thumbnail-div col-xs-8 col-xs-offset-4 col-md-2 col-md-offset-1" id="lbwrapper">
 
 
           <a href="https://divvyapp-d1e5a.firebaseapp.com/#/"  class="lightboxTrigger">
-            <img class="thumbnail" src="images/divvy1.png" alt=""> Divvy Savings App
+            <img class="thumbnail" src="images/divvy1.png" alt=""> Divvy Savings App (Group Project) HTML5/CSS3, Javascript, React
           </a>
 
   </div>
 
-  <div class="col-xs-8 col-md-4" id="lbwrapper">
+  <div class="thumbnail-div col-xs-8 col-xs-offset-4 col-md-2 col-md-offset-1" id="lbwrapper">
 
               <a href="#" >
-              <img class="thumbnail" src="images/kittenplaceholder.jpg" alt="">Kitten Kourage App (Coming Soon!!!)
+              <img class="thumbnail" src="images/kittenplaceholder.jpg" alt="">Kitten Kourage App (Solo Project - Coming Soon!!!) NodeJS, Express, Restful API.
               </a>
 
   </div>
