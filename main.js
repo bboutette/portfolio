@@ -3,10 +3,12 @@ $( document ).ready(function() {
 
     // Carousel Begins
     $('#myCarousel').carousel();
-    // $(".fadeIn").css({opacity: 0, visibility: "visible"}).animate({opacity: 1.0}, 5000);
+    $(".fadeIn").css({opacity: 0, visibility: "visible"}).animate({opacity: 1.0}, 5000);
     $(window).scroll( function(){
       // Carousel Ends
-
+      // Slider begins
+      // $('.bxslider').bxSlider();
+      // Slider Ends
       // FadeIn Begins
         /* Check the location of each desired element */
         $('.container').each( function(i){
@@ -25,7 +27,7 @@ $( document ).ready(function() {
 
     });
     // FadeIn Ends
-
+  
     // LightBox SlideShow Begins
 
   $(".slideshow-img:gt(0)").hide();

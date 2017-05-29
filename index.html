@@ -13,6 +13,9 @@
   <script type="text/javascript" src="main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="bsx-scripts/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+  <link href="bxs-scripts/jquery.bxslider.css" rel="stylesheet" >
   <title>Barbara Boutette</title>
 </head>
 
@@ -24,7 +27,7 @@
           <p class="navbar-brand">Barbara Boutette</p>
         </div>
         <div id="navbar">
-          <ul class="nav navbar-nav" style="border-style:none;">
+          <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li class="active"><a href="#about">About</a></li>
             <li><a href="https://medium.com/@bboutette">Blog</a></li>
@@ -51,10 +54,10 @@
     <!-- <img src="images/purple-flower-03.jpg" alt="purple flower" class="splash"> -->
 
     <div class = "container about-me" >
-      <h1 style="color: rgb(252, 217, 201);">About Me</h1>
+      <h1 >About Me</h1>
       <div class="row">
         <div class="col-md-4 biopic-wrapper">
-          <img width="275" style="border-radius: 15px;" class="avatar" src="images/avatar-72.jpg">
+          <img width="275" class="avatar" src="images/avatar-72.jpg">
         </div>
 
           <div class="col-xs-12 col-md-8 about-me-text" style=""
@@ -63,21 +66,27 @@
             It brought together two of my favorite activities: helping people and learning stuff. I am currently pursuing a Masters in Public Health from
             George Washington University and also in a web development bootcamp at General Assembly.
             I hope to help more people and make new friends with my new skills, perhaps through open source projects.
-            In my free time, I enjoy hiking with my dog, singing and playing music, coordinating <span style="font-weight:800px;
-            "><a style="color:#99ffce;
-      :visited:: color: grey;
-      :hover:: color: silver;" href="https://www.meetup.com/Austin-Esperanto/">
+            In my free time, I enjoy hiking with my dog, singing and playing music, coordinating <span
+            ><a href="https://www.meetup.com/Austin-Esperanto/">
             The Austin Esperanto Club</a></span>, and learning to play Naruto from my son.
 
           </div>
 
       </div>
     </div>
+
+    <!-- Slider test -->
+    <!-- <ul class="bxslider">
+      <li><img src="./images/arizona.jpg" /></li>
+      <li><img src="./images/marfa.jpg" /></li>
+      <li><img src="./images/cookieandme.jpg" /></li>
+      <li><img src="./images/scotland.jpg" /></li>
+    </ul> -->
     <!-- Carousel
     ================================================== -->
-    <p style="padding-bottom:20px;">Places I Love</p>
+    <p class="carousel-title">Places I Love</p>
 
-    <div id="myCarousel" class="container carousel" style="margin-top:30px; border-radius: 5px;">
+    <div id="myCarousel" class="container carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -190,7 +199,7 @@
   <!-- Animated skill buttons start http://codepen.io/valentingalmand/pen/ggKrpY -->
     <div class="container skills">
 
-      <p style="padding-bottom:45px;">Skills</p>
+      <p class="skills-title">Skills</p>
       <div class="row" >
         <button class="col-xs-offset-3 col-xs-6 col-md-offset-3 col-md-3">HTML5/CSS3</button>
         <button class="col-xs-offset-3 col-xs-6 col-md-offset-0 col-md-3">Javascript</button>
@@ -236,7 +245,7 @@
   <div class="thumbnail-div col-xs-8 col-xs-offset-4 col-md-2 col-md-offset-1" id="lbwrapper">
 
 
-          <a href="https://divvyapp-d1e5a.firebaseapp.com/#/"  class="lightboxTrigger">
+          <a href="https://divvyapp-d1e5a.firebaseapp.com/#/">
             <img class="thumbnail" src="images/divvy1.png" alt=""> Divvy Savings App (Group Project) HTML5/CSS3, Javascript, React
           </a>
 
