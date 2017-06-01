@@ -98,14 +98,10 @@ opacity:0;
   padding:20px 8px 10px 15px;
 }
 
-.splash {
-  margin-top: 0;
-  width: 100%;
-  max-height: 500px;
-  border-style: solid;
-  border-bottom-color: rgba(229, 37, 81, .5);
-  border-bottom-width: 2px;
-}
+/*#slides {
+      display:none;
+
+}*/
 
 .carousel-title{
   padding-bottom:20px;

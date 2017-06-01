@@ -5,17 +5,18 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="tea.ico" type="image/x-icon">
   <link rel="icon" href="tea.ico" type="image/x-icon">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="styleSheet" href="css/main.css">
   <link rel="styleSheet" href="css/portfolio.css">
-  <script type="text/javascript" src="main.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script src="bsx-scripts/jquery.bxslider.min.js"></script>
-    <!-- bxSlider CSS file -->
-  <link href="bxs-scripts/jquery.bxslider.css" rel="stylesheet" >
+
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+
   <title>Barbara Boutette</title>
 </head>
 
@@ -51,9 +52,7 @@
     </nav>
   </header>
 
-    <!-- <img src="images/purple-flower-03.jpg" alt="purple flower" class="splash"> -->
-
-    <div class = "container about-me" >
+    <div class = "container about-me fadeIn" >
       <h1 >About Me</h1>
       <div class="row">
         <div class="col-md-4 biopic-wrapper">
@@ -75,13 +74,16 @@
       </div>
     </div>
 
-    <!-- Slider test -->
-    <!-- <ul class="bxslider">
-      <li><img src="./images/arizona.jpg" /></li>
-      <li><img src="./images/marfa.jpg" /></li>
-      <li><img src="./images/cookieandme.jpg" /></li>
-      <li><img src="./images/scotland.jpg" /></li>
-    </ul> -->
+<!-- SliderJS  -->
+  <!-- <div id="slides">
+    <img src="./images/arizona.jpg">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+    <img src="http://placehold.it/940x528">
+  </div> -->
+
+
     <!-- Carousel
     ================================================== -->
     <p class="carousel-title">Places I Love</p>
@@ -270,6 +272,7 @@
     <div class="container footer" >
       Copyright Barbara Boutette 2017
     </div>
+
 </body>
 
 </html>
