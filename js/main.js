@@ -8,7 +8,9 @@ $( document ).ready(function() {
 
     // Carousel Begins
     $('#myCarousel').carousel();
+    // fade in on dom hit
     $(".fadeIn").css({opacity: 0, visibility: "visible"}).animate({opacity: 1.0}, 1000);
+    // fade in on scroll to top of container
     $(window).scroll( function(){
       // Carousel Ends
       // Slider begins

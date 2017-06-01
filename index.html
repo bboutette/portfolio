@@ -8,14 +8,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="styleSheet" href="css/main.css">
   <link rel="styleSheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/component.css">
+  <link rel="stylesheet" href="css/sun.css">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="jquery.slides.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="js/modernizr.custom.js"></script>
 
   <title>Barbara Boutette</title>
 </head>
@@ -46,11 +47,45 @@
                 <a class="github-button" href="https://github.com/bboutette" data-count-href="/bboutette/followers" data-show-count="true" data-count-label="# followers on GitHub" label="Follow @bboutette on GitHub">Follow @bboutette</a>
               </span>
             </li>
+            <!-- <li class="content_sun fadeIn">
+              <div class="sun_wrap">
+                  <div class="sun">
+                    <div class="sunset">
+                      <div class="sun-dot_1"></div>
+                      <div class="sun-dot_2"></div>
+                      <div class="sun-dot_3"></div>
+                      <div class="sun-dot_4"></div>
+                      <div class="sun-dot_6"></div>
+                      <div class="sun-dot_8"></div>
+                      <div class="sun-dot_10"></div>
+                      <div class="sun-dot_12"></div>
+                    </div>
+                  </div>
+              </div>
+              <div class="txt">This day is new.</div>
+            </li> -->
           </ul>
         </div>
       </div>
     </nav>
   </header>
+    <!-- <div class="content_sun fadeIn">
+      <div class="sun_wrap">
+          <div class="sun">
+            <div class="sunset">
+              <div class="sun-dot_1"></div>
+              <div class="sun-dot_2"></div>
+              <div class="sun-dot_3"></div>
+              <div class="sun-dot_4"></div>
+              <div class="sun-dot_6"></div>
+              <div class="sun-dot_8"></div>
+              <div class="sun-dot_10"></div>
+              <div class="sun-dot_12"></div>
+            </div>
+          </div>
+      </div> -->
+      <!-- <div class="txt">This day is new.</div> -->
+    </div>
 
     <div class = "container about-me fadeIn" >
       <h1 >About Me</h1>
@@ -229,40 +264,68 @@
 
     </div>
   <!-- Skill buttons end -->
+  <!-- Portfolio buttons begin -->
+  <!-- https://tympanus.net/codrops/2013/06/18/caption-hover-effects/ -->
 <div class="container projects">
+  <p style="padding-bottom:30x;">Projects</p>
+
+  <ul class="">
+    <div class="row">
+
+      <div class="projectWrapper col-md-6">
+        <figure>
+          <div><img src="images/charity.png" alt="img05"></div>
+          <figcaption>
+            <h3>CharityWish</h3>
+            <span> (Group Project) HTML5/CSS3 Javascript, Jquery, Restful API</span>
+            <a href="https://sgoldgar.github.io/CharityProject_FrontEnd/index.html">Take a look</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="projectWrapper projectWrapper col-md-6">
+        <figure>
+          <div><img src="images/divvy1.png" alt="img05"></div>
+          <figcaption>
+            <h3>Divvy App</h3>
+            <span> (Group Project) HTML5/CSS3, Javascript, React</span>
+            <a href="https://divvyapp-d1e5a.firebaseapp.com/#/">Take a look</a>
+          </figcaption>
+        </figure>
+      </div>
+
+    </div>
+    <div class="row">
+
+      <div class="projectWrapper col-md-6">
+
+        <figure>
+          <div><img src="images/kittenplaceholder.jpg" alt="img05"></div>
+          <figcaption>
+            <h3>Kitten Kourage</h3>
+            <span> (Solo Project) - Coming Soon!) NodeJS, Express, Restful API</span>
+            <a href="">Take a Look</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="projectWrapper col-md-6">
 
 
-      <p style="padding-bottom:30x;">Projects</p>
+        <figure>
+          <div><img src="images/BillTracker.png" alt="img05"></div>
+          <figcaption>
+            <h3>Bill Tracker</h3>
+            <span> (Open Source Project) - Coming Soon!) NodeJS, React, Python, Flask, PostgreSQL</span>
+            <a href="">Take a look</a>
+          </figcaption>
+        </figure>
+      </div>
 
-<!-- Portfolio thumbnails start https://codepen.io/jeder28/pen/vLyoMG -->
-
-  <div class="thumbnail-div col-xs-8 col-xs-offset-4 col-md-2 col-md-offset-1" id="lbwrapper">
-
-              <a href="https://sgoldgar.github.io/CharityProject_FrontEnd/index.html">
-              <img class="thumbnail" src="images/charity.png" alt="">CharityWish (Group Project) HTML5/CSS3 Javascript, Jquery, Restful API
-              </a>
-
-  </div>
-
-  <div class="thumbnail-div col-xs-8 col-xs-offset-4 col-md-2 col-md-offset-1" id="lbwrapper">
-
-
-          <a href="https://divvyapp-d1e5a.firebaseapp.com/#/">
-            <img class="thumbnail" src="images/divvy1.png" alt=""> Divvy Savings App (Group Project) HTML5/CSS3, Javascript, React
-          </a>
-
-  </div>
-
-  <div class="thumbnail-div col-xs-8 col-xs-offset-4 col-md-2 col-md-offset-1" id="lbwrapper">
-
-              <a href="#" >
-              <img class="thumbnail" src="images/kittenplaceholder.jpg" alt="">Kitten Kourage App (Solo Project - Coming Soon!!!) NodeJS, Express, Restful API.
-              </a>
-
-  </div>
-
+    </div>
+  </ul>
 </div>
-<!-- Portfolio thumbnails end -->
+<!-- Portfolio buttons end -->
 
 
     <!-- <div class="line">
@@ -272,7 +335,7 @@
     <div class="container footer" >
       Copyright Barbara Boutette 2017
     </div>
-
+  <script src="js/toucheffects.js"></script>
 </body>
 
 </html>

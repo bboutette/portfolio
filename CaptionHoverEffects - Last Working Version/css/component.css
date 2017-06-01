@@ -1,51 +1,39 @@
-.grid {
-	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
-	margin: 0 auto;
-	list-style: none;
-	text-align: center;
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.projects .projectWrapper {
+	margin: 0 0 25px;
 }
 
-.grid li {
-	display: inline-block;
-	width: 440px;
-	margin: 0;
-	padding: 20px;
-	text-align: left;
-	position: relative;
-}
-
-.grid figure {
+.projects figure {
 	margin: 0;
 	position: relative;
 }
 
-.grid figure img {
+.projects figure img {
 	max-width: 100%;
 	display: block;
 	position: relative;
 }
 
-.grid figcaption {
+.projects figcaption {
 	position: absolute;
 	top: 0;
 	left: 0;
 	padding: 20px;
 	background: #2c3f52;
+	
 	color: #ed4e6e;
 }
 
-.grid figcaption h3 {
+.projects figcaption h3 {
 	margin: 0;
 	padding: 0;
 	color: #fff;
 }
 
-.grid figcaption span:before {
-	content: 'by ';
-}
 
-.grid figcaption a {
+.projects figcaption a {
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
@@ -59,7 +47,7 @@
 
 
 /* Caption Style 4 */
-.cs-style-4 li {
+.projects .projectWrapper {
 	-webkit-perspective: 1700px;
 	-moz-perspective: 1700px;
 	perspective: 1700px;
@@ -68,31 +56,31 @@
 	perspective-origin: 0 50%;
 }
 
-.cs-style-4 figure {
+.projects figure {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
 
-.cs-style-4 figure > div {
+.projects figure > div {
 	overflow: hidden;
 }
 
-.cs-style-4 figure img {
+.projects figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
 }
 
-.no-touch .cs-style-4 figure:hover img,
-.cs-style-4 figure.cs-hover img {
+.no-touch .projects figure:hover img,
+.projects figure.cs-hover img {
 	-webkit-transform: translateX(25%);
 	-moz-transform: translateX(25%);
 	-ms-transform: translateX(25%);
 	transform: translateX(25%);
 }
 
-.cs-style-4 figcaption {
+.projects figcaption {
 	height: 100%;
 	width: 50%;
 	opacity: 0;
@@ -110,8 +98,8 @@
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
-.no-touch .cs-style-4 figure:hover figcaption,
-.cs-style-4 figure.cs-hover figcaption {
+.no-touch .projects figure:hover figcaption,
+.projects-style-4 figure.cs-hover figcaption {
 	opacity: 1;
 	-webkit-transform: rotateY(0deg);
 	-moz-transform: rotateY(0deg);
@@ -121,7 +109,7 @@
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-.cs-style-4 figcaption a {
+.projects figcaption a {
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
@@ -129,10 +117,10 @@
 
 
 @media screen and (max-width: 31.5em) {
-	.grid {
+	.projects {
 		padding: 10px 10px 100px 10px;
 	}
-	.grid li {
+	.projects .projectWrapper {
 		width: 100%;
 		min-width: 300px;
 	}
